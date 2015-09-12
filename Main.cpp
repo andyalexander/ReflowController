@@ -4,7 +4,7 @@
 #include <SimpleTimer.h>
 
 // Reflow oven constants and setup
-const int heatPin 		= 13;     		// the number of the LED pin.  This also controls the heater
+const int heatPin 		= 4;     		// This also controls the heater
 int heatState 			= LOW;     	    // heatState used to set the LED and heater
 //long previousMillis 	= 0;     		// will store last time LED/heater was updated
 //const long interval 	= 1000;  		// interval at which to sample temperature (milliseconds)
